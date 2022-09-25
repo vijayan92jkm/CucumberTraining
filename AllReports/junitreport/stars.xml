@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="30.097501">
+    <testcase classname="" name="_2" time="30.097501">
+        <failure message="org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression (//[text()='My Account'])[1] because of the following error:&#10;SyntaxError: Failed to execute 'evaluate' on 'Document': The string '(//[text()='My Account'])[1]' is not a valid XPath expression.&#10;  (Session info: chrome=105.0.5195.127)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'LENOVO', ip: '192.168.1.39', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.127, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\ELCOT\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53802}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: b446e1d569462243bbcf961de1bcaae1&#10;*** Element info: {Using=xpath, value=(//[text()='My Account'])[1]}&#13;&#10;&#9;at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)&#13;&#10;&#9;at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)&#13;&#10;&#9;at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)&#13;&#10;&#9;at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)&#13;&#10;&#9;at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)&#13;&#10;&#9;at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)&#13;&#10;&#9;at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)&#13;&#10;&#9;at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)&#13;&#10;&#9;at org.openqa.selenium.By$ByXPath.findElement(By.java:353)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)&#13;&#10;&#9;at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)&#13;&#10;&#9;at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)&#13;&#10;&#9;at jdk.proxy2/jdk.proxy2.$Proxy20.click(Unknown Source)&#13;&#10;&#9;at org.base.BaseClass.buttonClick(BaseClass.java:49)&#13;&#10;&#9;at org.stepdefinition.StepDefinition.iClicksTheMyAccountOption(StepDefinition.java:141)&#13;&#10;&#9;at ✽.I clicks the my account option(file:src/test/resources/FeatureFiles/MyAccount.feature:56)&#13;&#10;"><![CDATA[Given User got to the star360 application by chrome.........................passed
+When I clicks the my account option.........................................failed
+And User provide user name in user name field...............................skipped
+And User provide password in password field.................................skipped
+And User clicks singin button...............................................skipped
+Then user nvg to invld crdntl page..........................................skipped
+
+StackTrace:
+org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression (//[text()='My Account'])[1] because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '(//[text()='My Account'])[1]' is not a valid XPath expression.
+  (Session info: chrome=105.0.5195.127)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LENOVO', ip: '192.168.1.39', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.127, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\ELCOT\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53802}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: b446e1d569462243bbcf961de1bcaae1
+*** Element info: {Using=xpath, value=(//[text()='My Account'])[1]}
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy20.click(Unknown Source)
+	at org.base.BaseClass.buttonClick(BaseClass.java:49)
+	at org.stepdefinition.StepDefinition.iClicksTheMyAccountOption(StepDefinition.java:141)
+	at ✽.I clicks the my account option(file:src/test/resources/FeatureFiles/MyAccount.feature:56)
+]]></failure>
+    </testcase>
+</testsuite>

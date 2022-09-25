@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="31.48552">
+    <testcase classname="" name="_2" time="31.48552">
+        <system-out><![CDATA[Given User open star three sixty application and clicks my account..........passed
+When user enter email id in the text box....................................passed
+And user provides password in the text box..................................passed
+And user clicks signin button...............................................passed
+Then user navigated to invalid credential page..............................passed
+]]></system-out>
+    </testcase>
+</testsuite>
